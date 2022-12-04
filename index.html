@@ -6,17 +6,27 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 body {
-    background-image: url(img/BG.png);
+    background-image: url("img/BG.jpg");
 	background-attachment: fixed;
-	background-position: top center;
+	background-position: right center;
 	background-size: cover;
     background-repeat: no-repeat;
 }
 </style>
 <script src="js/time.js"></script>
+<script src="js/showmusic.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body>
-<div id="show"></div>
+	<header>學測倒數</header>
+	<div id="show"></div>
+	<div class="text">2023/01/13決戰學測，Hebe加持，金榜題名</div>
+	<div class="text">「什麼事情都再勇敢一點，不要怕挫折。就算做錯了，沒關係，就算受傷了，再繼續往前走。」</div>
+	<button class="text music" id="showM"><i class='fas fa-headphones-alt'></i> 音樂療癒</button>
+	<dialog id="infoModal">
+  		<p>這是 html 的 dialog!!</p>
+  		<button id="close">關閉</button>
+	</dialog>
 </body>
 </html>
