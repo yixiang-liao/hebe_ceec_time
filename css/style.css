@@ -27,7 +27,6 @@ header{
 }
 .music{
 	border: solid;
-	font-size: 25px;
 	padding: 10px 20px;
     box-shadow: 1px 1px 22px rgba(5,5,5,1.00);
 	margin-top: 100px;
@@ -39,4 +38,19 @@ header{
 .music:hover{
 	background-color: red;
 	color: white;
+}
+@media (max-width:600px){
+	header{
+		font-size: 25px;
+	}
+	#show{
+		font-size: 20px;
+	}
+	.text{
+		font-size: 20px;
+	}
+	.music{
+		margin-left: 35%;
+		margin-right: 35%;
+	}
 }
